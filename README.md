@@ -12,10 +12,11 @@ Over time, this database will continue to be updated such that we can develop an
 
 |       |            |
 | ------------- |:-------------|
-| Authors:      | [Philippa Matthews](http://orcid.org/0000-0002-4036-4269) (Academic) <br> [Martin Hadley](orcid.org/0000-0002-3039-6849) (Developer) |
 | Data: | https://dx.doi.org/10.6084/m9.figshare.4015824 (Live Data) <br> https://dx.doi.org/10.5287/bodleian:zr0VAr78q (Deposit at time of publication) |
 | Live Visualisation:      | www.expmedndm.ox.ac.uk/hepitopes |
 | Citing works: | Lumley S, Noble H, Hadley M et al. Hepitopes: literature review and database of HLA Class I epitopes in Hepatitis B Virus (HBV) [v1; not peer reviewed]. F1000Research 2016, 5:2357 (poster) (doi: [10.7490/f1000research.1113165.1](http://dx.doi.org/10.7490/f1000research.1113165.1) |
 | License: | MIT |
 | Copyright: | University of Oxford, 2016 |
+| Authors: | Lumley, Sheila <br> [Noble, Howard](http://orcid.org/0000-0001-5891-2932)<br> [Hadley, Martin](orcid.org/0000-0002-3039-6849)<br> Callow, Liz<br> Malik, Amna<br> Chua, Yi Yi<br> Duffey, Owen J<br> Grolmusova, Natalia<br> Kumar, Arvind<br> Ravenscroft, Samuel<br> Spencer, Jonathan I<br> Neumann-Haefelin, Christoph<br> Thimme, Robert<br> Andersson, Monique<br> Klenerman, Paul<br> Barnes, Eleanor<br> [Matthews, Philippa](http://orcid.org/0000-0002-4036-4269)<br> |
+
 
