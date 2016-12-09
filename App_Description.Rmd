@@ -1,6 +1,10 @@
 <p>Welcome to the HEPITOPES database.</p>
 
-<p>This is intended to be a comprehensive listing of all known/putative HLA Class I epitopes in the hepatitis B virus. The initial content is based on a literature review conducted in January 2016.</p>
+<p>This is intended to be a comprehensive listing of all known/putative HLA Class I epitopes in the hepatitis B virus. The initial content is based on a literature review conducted in January 2016. Please refer to our publication in Wellcome Open Research for further information:</p>
+
+<p><strong>Lumley S, Noble H, Hadley MJ et al</strong>. Hepitopes: A live interactive database of HLA class I epitopes in hepatitis B virus <strong>[version 1; referees: awaiting peer review]</strong>. <i>Wellcome Open Res</i> 2016, 1:9. DOI: <a href=http://dx.doi.org/10.12688/wellcomeopenres.9952.1>10.12688/wellcomeopenres.9952.1</a> </p>
 <p></p>
+
+<p>The data displayed within this interactive database may be accessed directly through Figshare, <a href=http://dx.doi.org/10.6084/m9.figshare.4040700>10.6084/m9.figshare.4040700</a></p>
 
 <p>The code for this interactive datatable is available on <a href='https://github.com/ox-it/Live-Data_Case-Studies/tree/gh-pages/2016/PhilippaMatthews'>Github</a>, and was developed by Research Support Service, IT Services, University of Oxford.</p>
