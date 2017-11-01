@@ -10,25 +10,10 @@
 
 library(DT)
 library(shiny)
+library("tidyverse")
+library("rfigshare")
 
-obscured_url <-
-  read.csv(file = "obscured_url.csv", stringsAsFactors = F)[1, ]
-
-heliotope_df <- read.csv(obscured_url, stringsAsFactors = F,check.names = F)
-
-# ## Drop unnecessary columns
-heliotope_df <-
-  heliotope_df[,!colnames(heliotope_df) %in% c(
-    "Starting sequence number (based on Hepitopes reference sequence)",
-    "New record number",
-    "Optimal epitope vs. OLP"
-  )]
-
-heliotope_df$`Publication year` <-
-  as.numeric(heliotope_df$`Publication year`)
-
-## Remove notes from column names
-colnames(heliotope_df) <- trimws(gsub("(; |[(]|)NS=not specified(|[)])|[(]NS = not specified[)]","",colnames(heliotope_df)))
+source("data-processing.R", local = TRUE)
 
 initial_columns <-
   c(
@@ -44,7 +29,7 @@ initial_columns <-
   )
 
 # ## Reorder columns in dataframe by the initial_columns to ensure correct display in selectInput
-# heliotope_df <- heliotope_df[,order(match(colnames(heliotope_df), initial_columns))]
+heliotope_df <- heliotope_df[,order(match(colnames(heliotope_df), initial_columns))]
 
 shinyServer(function(input, output) {
   
